@@ -1,0 +1,270 @@
+body {
+    font-family: "Roboto", "Helvetica", "Sans-serif";
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #777;
+    line-height: 1.7;
+}
+
+header{
+    position: sticky;
+    top: 0;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    background-color:rgb(52, 58, 64);
+    justify-content: space-around;
+    align-items: center;
+    /* border-bottom: 1px, solid, rgb(48, 46, 46); */
+
+}
+#logo{
+    color: white;
+}
+
+.head-con{
+    display: flex;
+}
+
+.head{
+    color: rgba(128, 135, 142, 0.9);
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.head:hover, .head:active{
+    color: rgb(220, 220, 220);
+}
+
+.hero{
+    /* position: absolute; */
+ height: 550px;
+ width:100%;
+ background-color:rgba(52, 58, 64, 0.9) ;
+ align-items: center;
+
+}
+
+#text{
+    color: rgb(255, 255, 255);
+    font-size: 400%;
+}
+.hero-text p{
+    color:rgb(255, 255, 255);
+}
+
+
+
+.hero-text{
+    margin: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+}
+
+.how-it-works{
+    text-align: center;
+    background-color: #f8f9fa;
+}
+
+.how-con{
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.icon{
+   font-size: 250%;
+   color: #f69314;
+}
+
+.how-items{
+    width: 30%;
+}
+
+p, ul{
+    display: block;
+color: #696a6b;
+font-size: 110%;
+}
+h4{
+    font-size: 125%;
+    font-weight: 300;
+    color: #343a40;
+}
+
+h1{
+    font-family: "Playfair Display", serif;
+    font-weight: 550;
+    color: #f69314;
+    font-size: 300%;
+}
+
+.property-detail-con{
+    display: flex;
+}
+
+.agent-con{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: start;
+}
+
+.agents{
+    width: 32%;
+    background: #f0f0f0;
+    margin-bottom: 2rem
+}
+
+h2{
+    font-size: 125%;
+    font-weight: 300;
+    font-family: "Playfair Display", serif;
+}
+
+ul{
+    padding-left: 20px;
+    margin-bottom: 4rem;
+}
+li{
+    margin-bottom: 10px;
+}
+
+button{
+    background: #f69314;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 30px;
+}
+
+.best{
+    justify-content: center;
+    align-items: center;
+display: flex;
+}
+
+.best-item{
+    width: 36%;
+}
+
+
+#bigP{
+    font-size: x-large;
+}
+
+.serv{
+    align-content: center;
+    background-color: #77777707;
+    border-bottom: #6f6f6f;
+}
+
+.services{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.serv-item{
+    align-items: center;
+    display: flex;
+    width: 30%;
+    margin-bottom: 2rem;
+}
+
+.serv a{
+    color: #f69314;
+    text-decoration: none;
+}
+
+.serv a:hover{
+    text-decoration: underline;
+}
+
+input{
+    border: #8b8b8c, solid, 1px;
+    width: 450px;
+    border-radius: 45px;
+    height: 38px;
+}
+
+.info{
+    display: flex;
+   justify-content: center;
+}
+
+.contact-form{
+    border: white 40px solid;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    text-align: left;
+}
+.button1{
+    margin-bottom: 20px;
+    margin-top: 60px;
+}
+ 
+.button1 button{
+    height: 40px;
+    width: 200px;
+
+}
+
+.info-con{
+    text-align: center;
+    align-content: center;
+    background-color:  #aeaeae20;
+}
+
+.address-form{
+    border: white 20px solid;
+    margin-left: 40px;
+background-color: white;
+height: 350px;
+width: 350px;
+text-align: left;
+}
+
+.message{
+    height: 180px;
+    text-align: start;
+}
+
+.address-form label, address{
+    font: normal;
+    display: block;
+    margin-top: 2rem;
+}
+
+.address-form a{
+    color: #f69314;
+    text-decoration: none;
+}
+
+.address-form a:hover{
+   text-decoration: underline;
+}
+
+.info{
+
+}
+
+.contact-form h3{
+    font-size: xx-large;
+    color: #000;
+    font-family: "Playfair Display", serif;
+    margin-bottom: 2rem;
+    font-weight: 300;
+
+}
+
